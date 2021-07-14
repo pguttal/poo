@@ -1,0 +1,52 @@
+body
+{
+    margin: 2%;
+    border: 1px solid black;
+    background-color: #b3b3b3;
+}
+#image
+{
+    line-height:650px;
+    width: 575px;
+    height: 650px;
+    border:5px solid black;
+    margin:0 auto;
+    background-color: #8e68ff;
+    background-image: url('');
+    background-repeat: no-repeat;
+    color:#FFFFFF;
+    text-align: center;
+    background-size: 100%;
+    margin-bottom:30px;
+    font-size: 150%;
+}
+
+.rose
+{
+    width:10%;
+    margin-left: 17%;
+    border:10px solid black;
+}
+
+img
+{
+    width:95%;
+}
+#container{
+    min-height: 100%;
+    margin-bottom:-75px;
+
+}
+#container:after{
+    content:"";
+    display:block;
+    height:75px;
+
+}
+footer{
+    background-color: yellowgreen;
+    height:75px;
+    line-height:80px;
+    color:black;
+    text-align: center;
+}
